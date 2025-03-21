@@ -39,14 +39,14 @@ Dify 采用无代码设计理念，使业务人员能够直接构建和部署 AI
    -  配置集群ServiceCIDR：推荐使用默认值：172.20.0.0/16，也可按需调整。
 #### Postgres 数据库配置
   ![img_1.png](img_1.png)
-    - 选择Postgres数据库规格：默认选择4C8G，pg.x2.large.2c
-    - 选择Postgres数据库存储类型：默认选择ESSD云盘
-    - 配置PostgreSQL实例存储大小：默认选择500GB
-    - 配置PostgreSQL数据库账号名称：默认使用"postgres"
-    - 配置PostgreSQL实例密码：需要用户自行配置
+  - 选择Postgres数据库规格：默认选择4C8G，pg.x2.large.2c
+  - 选择Postgres数据库存储类型：默认选择ESSD云盘
+  - 配置PostgreSQL实例存储大小：默认选择500GB
+  - 配置PostgreSQL数据库账号名称：默认使用"postgres"
+  - 配置PostgreSQL实例密码：需要用户自行配置
 #### Redis 数据库配置
 ![img_2.png](img_2.png)
-    - 配置Redis实例密码:需要用户自行配置
+  - 配置Redis实例密码:需要用户自行配置
 #### 向量数据库配置
 ![img_3.png](img_3.png)
   - 选择向量数据库规格：默认选择8C32G
