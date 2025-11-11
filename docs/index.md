@@ -69,7 +69,7 @@ Dify 企业版需要使用容器镜像仓库来存储和管理插件镜像。 �
 #### 向量数据库配置
 ![img_12.png](img_12.png)
   - 向量数据库支持选择“使用TableStore做向量数据库”和“使用AnalyticDB PostgreSQL做向量数据库”
-  - 当选择TableStore时，实例名称采取默认生成的即可
+  - 当选择TableStore时，实例名称采取默认生成的即可，TableStore默认多 AZ 容灾
     ![img_14.png](img_14.png)
   - 选择AnalyticDB PostgreSQL时，配置以下参数
     ![img_13.png](img_13.png)
