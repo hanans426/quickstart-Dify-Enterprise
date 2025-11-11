@@ -67,9 +67,12 @@ Dify 企业版需要使用容器镜像仓库来存储和管理插件镜像。 �
 ![img_2.png](img_2.png)
   - 配置Redis实例密码:需要用户自行配置
 #### 向量数据库配置
-![img_3.png](img_3.png)
+![img_12.png](img_12.png)
   - 向量数据库支持选择“使用TableStore做向量数据库”和“使用AnalyticDB PostgreSQL做向量数据库”
-  - 当选择TableStore时，
+  - 当选择TableStore时，实例名称采取默认生成的即可
+    ![img_14.png](img_14.png)
+  - 选择AnalyticDB PostgreSQL时，配置以下参数
+    ![img_13.png](img_13.png)
   - 选择向量数据库规格：默认选择8C32G
   - 配置向量数据库存储大小：默认选择100GB
   - 配置向量数据库账号名称：默认使用"dify"
