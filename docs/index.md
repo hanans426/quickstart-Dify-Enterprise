@@ -19,7 +19,9 @@ Dify 采用无代码设计理念，使业务人员能够直接构建和部署 AI
 - 对象存储 OSS
 - Postgres 数据库: 4 CPU，8 GB RAM ,500 GB SSD 存储空间
 - Redis 数据库：2 GB RAM
-- AnalyticDB PostgreSQL版: 8 CPU，32 GB RAM, 100 GB 存储空间
+- 向量数据库：支持以下两种向量数据库，选择其中一个即可
+    1.Tablestore: CU模式（原按量付费），存储弹性，容量无限制
+    2.AnalyticDB PostgreSQL版: 8 CPU，32 GB RAM, 100 GB 存储空间
 
 ## 前提准备
 
@@ -66,6 +68,8 @@ Dify 企业版需要使用容器镜像仓库来存储和管理插件镜像。 �
   - 配置Redis实例密码:需要用户自行配置
 #### 向量数据库配置
 ![img_3.png](img_3.png)
+  - 向量数据库支持选择“使用TableStore做向量数据库”和“使用AnalyticDB PostgreSQL做向量数据库”
+  - 当选择TableStore时，
   - 选择向量数据库规格：默认选择8C32G
   - 配置向量数据库存储大小：默认选择100GB
   - 配置向量数据库账号名称：默认使用"dify"
